@@ -37,8 +37,8 @@ function UserAppointments() {
       <div style={styles.sidebar}>
         <h2 style={{ marginBottom: '30px' }}>Dashboard</h2>
         <div style={styles.tabList}>
-          <button style={styles.tabButton} onClick={() => navigate('/dashboard')}>Book Appointment</button>
-          <button style={styles.tabButton}>Profile</button>
+          <button style={styles.tabButton} onClick={() => navigate('/dashboard')}>Dashboard</button>
+          <button style={styles.tabButton} onClick={()=> navigate('/profile')}>Profile</button>
         </div>
         <button style={styles.logoutButton} onClick={handleLogout}>Logout</button>
       </div>
